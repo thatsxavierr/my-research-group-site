@@ -1,0 +1,34 @@
+.home-container {
+  display: flex;
+  justify-content: center;     /* vertical centre already OK */
+  align-items: center;         /* horizontal centre */
+  height: calc(100vh - 80px);
+  margin-top: 80px;
+}
+
+.home-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.intro-heading {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 20px auto;
+  max-width: 800px;
+  color: #dddddd;
+}
