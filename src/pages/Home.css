@@ -1,19 +1,20 @@
 .home-container {
+  width: 100vw;  /* Force full viewport width */
+  height: calc(100vh - 80px); /* Adjust for your fixed navbar height */
   display: flex;
-  justify-content: center;     /* vertical centre already OK */
-  align-items: center;         /* horizontal centre */
-  height: calc(100vh - 80px);
+  flex-direction: column;
+  justify-content: center;   /* Vertical centering */
+  align-items: center;       /* Horizontal centering */
   margin-top: 80px;
 }
 
+
 .home-content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  max-width: 800px;  /* Restrict readable width */
+  margin: 0 auto;    /* Center horizontally */
+  padding: 2.5rem 2rem 2.5rem 2rem;
+  text-align: center;
+  /* REMOVE width: 100%; REMOVE display: flex, align-items, etc! */
 }
 
 
