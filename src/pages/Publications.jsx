@@ -1,4 +1,10 @@
 function Publications() {
-  return <h2>Our Publications</h2>;
+  return (
+    <div className="page-content">
+      <h1>Our Publications</h1>
+      {/* Add publication items here */}
+      <p>See out publications here</p>
+    </div>
+  );
 }
 export default Publications;

@@ -1,0 +1,55 @@
+.members-section-title {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 2rem 0 1.2rem 0;
+}
+
+.member-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.2rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.member-card {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #292929;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.11);
+  padding: 1.3rem 0.8rem;
+}
+
+.member-card img {
+  width: 160px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.9rem;
+}
+
+.member-info {
+  text-align: center;
+}
+
+.member-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+
+.member-title {
+  font-size: 0.97rem;
+  color: #aad8ff;
+  margin-bottom: 0.1rem;
+}
+
+.member-email {
+  font-size: 0.94rem;
+  color: #bfbfbf;
+  word-break: break-all;
+}
