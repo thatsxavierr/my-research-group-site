@@ -91,3 +91,51 @@
   box-shadow: 0 4px 24px rgba(0,0,0,0.08);
   text-align: center;
 }
+
+.facility-list {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 3rem 1.5rem;
+}
+
+.facility-section {
+  margin-bottom: 2.5rem;
+}
+
+.facility-text-img {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.facility-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.facility-img {
+  width: 260px;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.12);
+  background: #222;
+}
+
+.img-caption {
+  font-size: 0.97rem;
+  color: #bbb;
+  margin-top: 0.5rem;
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media (max-width: 900px) {
+  .facility-text-img {
+    flex-direction: column;
+    align-items: center;
+  }
+  .facility-img {
+    margin-top: 1rem;
+  }
+}
