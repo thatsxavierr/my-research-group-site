@@ -1,12 +1,51 @@
-# React + Vite
+# Research Group Website
+## Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was a React-based website built to showcase my research group’s work, members, news, and publications. It served as a central hub for sharing research updates, upcoming events, and general information about the team.
 
-Currently, two official plugins are available:
+The site was intended to be easy to update so that non-technical members of the group (e.g., the PI or other researchers) could edit content such as news posts, member lists, and project descriptions without having to code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technology Stack
+Frontend Framework: React (with functional components)
 
-## Expanding the ESLint configuration
+Styling: CSS modules / custom CSS for consistent layout and design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Version Control: Git & GitHub (public repository for collaboration)
+
+Package Management: npm
+
+Hosting: Planned for GitHub Pages (local development possible with Node.js)
+
+## Features
+
+Home Page: Brief introduction to the research group and mission statement.
+
+News & Research: Section for announcements, news and recent research.
+
+Resources and Facilities: Summaries of resources and facilities.
+
+Members Page: Lists current and past group members with photos and bios.
+
+Publications: Links to papers, conference presentations, and posters.
+
+Memories: Past memories
+
+## Installation & Running Locally
+
+### Prerequisites:
+
+- Node.js installed
+
+- Git installed
+
+### Steps(in terminal):
+
+git clone <https://github.com/thatsxavierr/my-research-group-site>
+
+cd research-group-website
+
+npm install
+
+npm start
+
+The site will run locally at http://localhost:3000/.
