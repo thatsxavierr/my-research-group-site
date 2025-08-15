@@ -40,7 +40,7 @@ Memories: Past memories
 
 ### Steps(in terminal):
 
-git clone <https://github.com/thatsxavierr/my-research-group-site>
+git clone <https://github.com/thatsxavierr/my-research-group-site.git>
 
 cd research-group-website
 
